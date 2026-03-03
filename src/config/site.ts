@@ -105,8 +105,14 @@ export const siteConfig = {
     { name: "Priyanka T.", text: "Such a cosy vibe near JNU. Perfect for catching up with friends. The Pita Pocket with Hummus and the Oreo Shake are my go-tos.",     rating: 5, avatar: "P" },
   ],
 
-  // ── POPULAR ITEMS (footer) ─────────────────
-  popularItems: ["Veg Dimsum", "Tulsi Green Tea", "Watermelon Mojito", "Pita Pocket & Hummus", "Oreo Shake"],
+    // ── POPULAR ITEMS (footer) ─────────────────
+  popularItems: [
+    "Golden Cheese N Corn Pizza",
+    "Crispy Chilli Potatoes",
+    "Noodles & Manchurian",
+    "House Mojito Collection"
+  ],
+
 
   // ── AMBIANCE ───────────────────────────────
   ambiance: {

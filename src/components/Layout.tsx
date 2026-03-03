@@ -3,10 +3,12 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import WhatsAppButton from "./WhatsAppButton";
 import DirectionsButton from "./DirectionsButton";
+import ScrollToTop from "./ScrollToTop";
 
 const Layout = () => {
   return (
     <div className="flex min-h-screen flex-col">
+      <ScrollToTop />
       <Navbar />
       <main className="flex-1">
         <Outlet />
